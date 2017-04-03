@@ -1,0 +1,18 @@
+{
+  "pages":[
+    "pages/introduce/introduce",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/project/project1",
+    "pages/project/project2",
+    "pages/project/project3",
+    "pages/project/project4",
+    "pages/project/project5"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "壹平健康",
+    "navigationBarTextStyle":"black"
+  }
+}
