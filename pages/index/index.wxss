@@ -1,5 +1,5 @@
 /**index.wxss**/
-.userinfo {
+/*.userinfo {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,4 +18,116 @@
 
 .usermotto {
   margin-top: 200px;
+}*/
+
+
+.container {
+  height: 100%;
+  
+} 
+
+.text_show_detail {
+  color: green;
+  
+}
+
+.logo-top {
+  width: 100%;
+  height: 50px;
+  
+}
+
+.logo-project {
+  width: 50px;
+  height: 50px;
+}
+
+
+
+.view-content {
+  height: auto;  
+  text-align: left;
+  font: small-caps;
+  font-size: 15px;
+  margin-top: 3px;
+  align-content: center;
+  margin-right: 5px;
+  margin-left: 5px;
+  align-items: center;
+}
+
+.view-content-detail {  
+  text-align: right;
+  font-size: 11px;
+  margin-right: 13px;
+  margin-top: 5px;
+}
+
+.view-item-1 {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.text-item-1 {
+  text-align: center;
+  color: red;
+}
+
+.view-align-center {
+  align-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.text-project-intro {
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 50px;
+  margin-left: 10px;
+  width: 300px;
+}
+
+.imgclass {
+  width: 50px;
+  height: 50px;
+}
+
+
+.flex-wrp{
+    height: 100px;
+    display:flex;
+    background-color: #FFFFFF;
+}
+.flex-item{
+    width: 100px;
+    height: 100px;
 }

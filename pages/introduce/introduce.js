@@ -35,6 +35,9 @@ Page({
       url: '../project/project5'
     })
   },
+  showDetail : function() {
+    console.info("11111");
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this

@@ -1,7 +1,7 @@
 {
-  "pages":[
-    "pages/introduce/introduce",
+  "pages":[    
     "pages/index/index",
+    "pages/introduce/introduce",
     "pages/logs/logs",
     "pages/project/project1",
     "pages/project/project2",

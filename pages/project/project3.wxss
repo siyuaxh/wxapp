@@ -1,0 +1,5 @@
+.show_pic_page {
+    height: 100%;
+    width: 100%;
+
+}
