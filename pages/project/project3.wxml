@@ -1,6 +1,8 @@
 <view class="show_pic_page">
  
 
+<image src="../img/loading.gif"   class="{{loadingstyle}}" ></image>
+
   <image src="{{img_url}}"   style="width:{{imgheight}}px; height:{{imgwidth}}px; " bindload="resizeImg"></image>
 
 

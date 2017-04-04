@@ -4,8 +4,8 @@ Page({
   data: {
     img_url:'https://www.siyuhouse.com/wxapp/coffee_enema.png',
     imgheight : 0,
-    imgwidth : 0
-
+    imgwidth : 0,
+    loadingstyle : 'pic_show_loading'
   },
   resizeImg : function (e) {
     console.info('resizeImg') ;
@@ -20,6 +20,7 @@ Page({
     console.info('img newheight : ' + value.newheight) ;
     
     this.setData({ 
+        loadingstyle : 'pic_hide_loading',
         imgheight: app.globalData.contentWidth, 
         imgwidth: value.newheight 
     });
